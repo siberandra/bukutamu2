@@ -1,0 +1,85 @@
+/* CSS Document */
+
+/* Atur body dengan font modern dan background */
+body {
+    background-color: #FFFFFF;
+    font-family: "Garamond", serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Gaya untuk border umum */
+.border {
+    border: 3px solid #FF9900;
+    background-color: #000000;
+}
+
+/* Menu styling */
+.menu {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    background: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.menu:hover {
+    color: #FFF;
+    background: #0000FF;
+    font-weight: bold;
+}
+
+/* Banner styling */
+#banner {
+    width: 900px;
+    height: 180px;
+    margin: 0 auto;
+    text-align: center;
+    background: url(header.jpg) no-repeat center top;
+    border: solid 1px #999999;
+}
+
+/* Table styling */
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+tr:nth-child(odd) {
+    background-color: #F2F2F2;
+}
+
+tr:nth-child(even) {
+    background-color: #BEF2F8;
+}
+
+.style1 {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    body {
+        font-size: 12px;
+    }
+
+    #banner {
+        width: 100%;
+        height: auto;
+    }
+
+    table {
+        width: 100%;
+    }
+}
